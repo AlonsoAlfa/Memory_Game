@@ -70,7 +70,10 @@ a{
 
   @import url(https://fonts.googleapis.com/css?family=Passion+One);
   body {
-    background: #D30215;
+    background-image: url("https://i.gifer.com/T21s.gif");
+    background-position: center 25%; 
+    background-size: cover; 
+    
     overflow: hidden;
     margin: 0;
     font-family: 'Passion One', impact;
