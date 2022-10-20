@@ -20,7 +20,7 @@ function girar(id){
       //Mostrar número
       let card1 = document.getElementById(id);   
       primeraEleccion = numeros[id]; 
-      card1.innerHTML = `<img src="./images/${primeraEleccion}.jpg" alt="">`;  // ----------------------------------IMG
+      card1.innerHTML = `<img src="./images/${primeraEleccion}.png" alt="">`;  // ----------------------------------IMG
       //Deshabilitar botón
       card1.disabled = true;
       cartasDestapadas++;
@@ -32,7 +32,7 @@ function girar(id){
       //Mostrar número
       let card2 = document.getElementById(id);
       segundaEleccion = numeros[id];
-      card2.innerHTML = `<img src="./images/${segundaEleccion}.jpg" alt="">`;  // ----------------------------------IMG
+      card2.innerHTML = `<img src="./images/${segundaEleccion}.png" alt="">`;  // ----------------------------------IMG
       //Deshabilitar botón
       card2.disabled = true;
       cartasDestapadas++;
