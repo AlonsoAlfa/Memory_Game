@@ -5,7 +5,11 @@ body{
     color: white;
   }
 .section2{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    border-style: solid;
+    border-color: #000000;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     width: 260px;
@@ -14,6 +18,8 @@ body{
     position:relative;
     top: -380px;
     left: -350px;
+    color:#000000;
+    
   }
 
   .section1{
