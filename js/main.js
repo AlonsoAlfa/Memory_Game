@@ -9,7 +9,7 @@ let mostrarTiempo = document.getElementById('restante');
 let mostrarPuntaje = document.getElementById('puntaje');
 let mostrarMovimientos = document.getElementById('movimientos');
 
-function girar(id){
+function giro(id){
 
     if (temporizador == false){
       contarTiempo();
