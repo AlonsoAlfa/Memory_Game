@@ -68,14 +68,14 @@ function girar(id){
       winAudio.play() //Audio insertado
       clearInterval(tiempoRegresivo);
       mostrarTiempo.innerHTML = `Fantastico! 🎉 Sólo demoraste ${timerInicial - timer - 1} segundos`;
-      mostrarPuntaje.innerHTML = `Puntaje: ${puntaje} 😱`;
-      mostrarMovimientos.innerHTML = `Movimientos: ${movimientos} 🤟‍‍😎`;
+      mostrarPuntaje.innerHTML = `Puntos: ${puntaje} 😱`;
+      mostrarMovimientos.innerHTML = `Movimiento: ${movimientos} 🤟‍‍😎`;
     }
   }
 
   function contarTiempo(){
     tiempoRegresivo = setInterval(() => {
-      mostrarTiempo.innerHTML = `Tiempo restante: ${timer} segundos`;
+      mostrarTiempo.innerHTML = `Tiempo : ${timer}`;
       timer--;
       if(timer < 0){
         clearInterval(tiempoRegresivo);
